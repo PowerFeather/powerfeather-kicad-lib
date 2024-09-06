@@ -1,0 +1,68 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "520ec42e-b3c7-49b5-82ea-2e6a5aae60fc")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "VBAT"
+		(shape input)
+		(at 138.43 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "011affd3-d4e7-478e-9f71-23b8552d4223")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 139.7 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ae2237c-4701-4ba7-95f9-47050cbfaa52")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 170.18 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6932306f-715b-4f1c-baf7-ee9676f8d1ba")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 170.18 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c070662-60ca-4d79-8745-e76c02a9ed77")
+	)
+	(hierarchical_label "ALARM"
+		(shape output)
+		(at 170.18 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af4b8093-87ee-46fb-9817-b28dace6dbd5")
+	)
+)
