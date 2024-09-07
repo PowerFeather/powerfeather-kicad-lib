@@ -1105,7 +1105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e4e87cf-afc1-45da-938a-c01809ee421a")
-		(property "Reference" "C8"
+		(property "Reference" "C20"
 			(at 77.47 67.3099 0)
 			(effects
 				(font
@@ -1151,15 +1151,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e555897b-b9c6-4f5f-b000-dd580cc81165")
+			(uuid "17f34e24-fa30-40da-9975-0dac2222ae6f")
 		)
 		(pin "2"
-			(uuid "1523bdb5-05fe-413e-a23c-602ac2304008")
+			(uuid "c4599de2-a753-457d-9a56-a7b653839262")
 		)
 		(instances
 			(project "esp32s3-powerfeather"
-				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/46173bec-ea31-4af7-a417-264e4953a5cb/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
-					(reference "C8")
+				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -1175,7 +1175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22b8bd41-334e-4593-bbcb-3107805da904")
-		(property "Reference" "C2"
+		(property "Reference" "C21"
 			(at 140.97 66.0399 0)
 			(effects
 				(font
@@ -1221,15 +1221,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c2ac94f-0204-4e5a-8e17-4735467a478a")
+			(uuid "403cc9a4-be3d-42ef-a5c1-67eff77cb665")
 		)
 		(pin "2"
-			(uuid "28164476-f77a-465e-93aa-3d8c7a787668")
+			(uuid "2bf250ed-369c-4cf1-8c28-f73ad026d033")
 		)
 		(instances
-			(project ""
-				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/46173bec-ea31-4af7-a417-264e4953a5cb/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
-					(reference "C2")
+			(project "esp32s3-powerfeather"
+				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -1245,7 +1245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4310e227-9514-40be-9cb0-fbcba16dc770")
-		(property "Reference" "R7"
+		(property "Reference" "R19"
 			(at 127 71.1199 0)
 			(effects
 				(font
@@ -1291,15 +1291,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8315e1d6-6a5a-4c10-9edc-e9268621aa0f")
+			(uuid "768a9302-bae2-42a1-bb83-f2c679d57902")
 		)
 		(pin "2"
-			(uuid "49326aac-2c35-47be-9e6d-5412af691a38")
+			(uuid "78c1877c-161e-4191-a91c-b8bb00179a6f")
 		)
 		(instances
 			(project "esp32s3-powerfeather"
-				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/46173bec-ea31-4af7-a417-264e4953a5cb/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
-					(reference "R7")
+				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1315,7 +1315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b1ce749-43ed-4285-a413-b684cc51d7b3")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 106.68 48.26 0)
 			(effects
 				(font
@@ -1359,33 +1359,33 @@
 			)
 		)
 		(pin "C2"
-			(uuid "8da7e404-9fa7-4c0c-a9cf-0c7083f38fd2")
+			(uuid "b06cb1b0-f33c-448b-8a24-d837f9626264")
 		)
 		(pin "D2"
-			(uuid "534e1f67-109f-454c-bf13-f048305789cc")
+			(uuid "31e1d00f-8012-428d-b7fd-acdf50f3a96f")
 		)
 		(pin "B1"
-			(uuid "11a4836a-bac5-4804-8c2b-d4b2f8a3477e")
+			(uuid "1c959830-dfb7-40c6-bb57-dba53104ff1f")
 		)
 		(pin "B2"
-			(uuid "f99e0238-1c2c-4a27-a4aa-595c78fb06d5")
+			(uuid "af3c6641-f854-4fd2-b18d-a9b3c048d1e7")
 		)
 		(pin "A2"
-			(uuid "2351583b-1649-4b41-8070-d299296c4df2")
+			(uuid "28e6225a-2dbe-4559-8418-e3181f38f874")
 		)
 		(pin "A1"
-			(uuid "3fbff4df-5bb2-4ba3-83c8-c81f7fa0e076")
+			(uuid "88f6d0f4-9503-45b2-9057-b7a5ce8036eb")
 		)
 		(pin "C1"
-			(uuid "0652a451-cdb3-4a9d-ba2f-7a4877c82c80")
+			(uuid "956f5da8-8c6a-4e5d-96c8-f80262591842")
 		)
 		(pin "D1"
-			(uuid "25aba3c0-741f-4240-9791-ddee36e36ba1")
+			(uuid "d4998139-5f92-42c0-9432-1fef14fe1955")
 		)
 		(instances
-			(project ""
-				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/46173bec-ea31-4af7-a417-264e4953a5cb/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
-					(reference "U2")
+			(project "esp32s3-powerfeather"
+				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1444,14 +1444,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "ea232f35-e563-4ac8-8252-3b5f36b2b59b")
+			(uuid "23badbd8-194e-4f53-96ff-2e4f1ebaa42f")
 		)
 		(pin "1"
-			(uuid "b9cb7fd2-f879-401c-b9ed-6a7857fec5da")
+			(uuid "3946e0ee-7e90-4cb0-bead-8c88cd7c4411")
 		)
 		(instances
-			(project ""
-				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/46173bec-ea31-4af7-a417-264e4953a5cb/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
+			(project "esp32s3-powerfeather"
+				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
 					(reference "L2")
 					(unit 1)
 				)
@@ -1468,7 +1468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d45d0d4-5d83-4259-a872-bd5fa7837ce7")
-		(property "Reference" "R6"
+		(property "Reference" "R18"
 			(at 127 60.9599 0)
 			(effects
 				(font
@@ -1514,15 +1514,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d4d6933-6f62-47e3-94d0-e0dfdcfaa62f")
+			(uuid "da70701b-3404-4b56-87ab-1b01623f0090")
 		)
 		(pin "2"
-			(uuid "aa7d5dc5-ec7d-4734-92fb-a46135f7601d")
+			(uuid "d8fb49ae-d83e-4296-a8e6-23ea8c8d9dff")
 		)
 		(instances
-			(project ""
-				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/46173bec-ea31-4af7-a417-264e4953a5cb/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
-					(reference "R6")
+			(project "esp32s3-powerfeather"
+				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1c9cf99d-29d3-45e3-bf18-d4466a37473a"
+					(reference "R18")
 					(unit 1)
 				)
 			)
