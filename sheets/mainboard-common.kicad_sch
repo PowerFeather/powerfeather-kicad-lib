@@ -4954,6 +4954,12 @@
 		(uuid "a9f76403-aac2-4c32-8221-d67477421dcb")
 	)
 	(junction
+		(at 157.48 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae997688-ec75-416f-8235-5362973ece84")
+	)
+	(junction
 		(at 55.88 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5322,6 +5328,16 @@
 			(type default)
 		)
 		(uuid "0405ad8f-a560-4649-a4fe-9c2dc9f56a31")
+	)
+	(wire
+		(pts
+			(xy 146.05 81.28) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068c6d5f-a30d-4820-afa8-fee90a80fe3f")
 	)
 	(wire
 		(pts
@@ -6125,6 +6141,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 81.28) (xy 157.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ce47a9-e4a1-4df1-87dd-5805befb8ec5")
+	)
+	(wire
+		(pts
 			(xy 144.78 130.81) (xy 148.59 130.81)
 		)
 		(stroke
@@ -6732,6 +6758,16 @@
 			(type default)
 		)
 		(uuid "af17c9df-b284-47cb-b224-964dc2a13529")
+	)
+	(wire
+		(pts
+			(xy 156.21 81.28) (xy 157.48 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b004338d-3f9a-43ec-88b1-cae6d7d9cfe6")
 	)
 	(wire
 		(pts
@@ -7560,6 +7596,16 @@
 			)
 		)
 		(uuid "a131aa8d-bcff-4f7f-8ae3-9d0ea6fcad99")
+	)
+	(text "ILIM: 1.2k ~ 2 A Limit"
+		(exclude_from_sim no)
+		(at 166.624 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c951fde6-e545-45f5-b9f6-a7bdd2aacee9")
 	)
 	(label "QON"
 		(at 242.57 96.52 180)
@@ -11590,6 +11636,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 152.4 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "927ba046-2265-449f-afe9-5c61f6730b6a")
+		(property "Reference" "R15"
+			(at 153.67 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 153.67 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 152.654 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4030dc01-6046-489f-9591-827be5cfa07d")
+		)
+		(pin "2"
+			(uuid "b53d4586-6898-4d44-bd51-78a59d048973")
+		)
+		(instances
+			(project "esp32s3-powerfeather"
+				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 71.12 171.45 270)
 		(unit 1)
@@ -14612,6 +14736,16 @@
 				(justify left)
 			)
 			(uuid "8d958ded-a97a-4345-8032-1c5f3e365a67")
+		)
+		(pin "ILIM" passive
+			(at 146.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6059b67-29fb-4a67-b616-15a6d38d2e92")
 		)
 		(instances
 			(project "esp32s3-powerfeather"

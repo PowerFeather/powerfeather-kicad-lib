@@ -1158,12 +1158,6 @@
 		(uuid "4cc5b51b-f3af-4a90-9fdd-a5d2e713780f")
 	)
 	(junction
-		(at 134.62 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "605051f7-c8a7-46eb-9f51-9b3178ea003a")
-	)
-	(junction
 		(at 140.97 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1357,16 +1351,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 140.97 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "304760e8-d511-4d93-9ec6-c8597346d578")
-	)
-	(wire
-		(pts
 			(xy 83.82 76.2) (xy 83.82 80.01)
 		)
 		(stroke
@@ -1374,16 +1358,6 @@
 			(type default)
 		)
 		(uuid "34562030-bff7-479a-a064-34408cbd4afb")
-	)
-	(wire
-		(pts
-			(xy 134.62 63.5) (xy 134.62 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34a75e26-160f-45ae-a4bc-83eefe9a8020")
 	)
 	(wire
 		(pts
@@ -1497,16 +1471,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 63.5) (xy 134.62 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5af8165a-4114-45c0-ae71-c4e120254d75")
-	)
-	(wire
-		(pts
 			(xy 115.57 63.5) (xy 120.65 63.5)
 		)
 		(stroke
@@ -1597,7 +1561,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 91.44) (xy 134.62 91.44)
+			(xy 127 91.44) (xy 140.97 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2211,6 +2175,18 @@
 			(justify right)
 		)
 		(uuid "9ea71d0a-c237-44df-a5f7-4b9546f733c1")
+	)
+	(hierarchical_label "ILIM"
+		(shape passive)
+		(at 120.65 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b561e35a-ed6b-4a9f-ae3c-091db8aabf09")
 	)
 	(hierarchical_label "INT"
 		(shape input)
@@ -3163,84 +3139,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 124.46 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cef040c1-0bf7-47fd-8978-5b303ecaa34e")
-		(property "Reference" "R15"
-			(at 125.73 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "845"
-			(at 125.73 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 124.714 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ph/datasheet/2/447/PYu_AC_51_RoHS_L_9-3005297.pdf"
-			(at 124.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "603-AC0402FR-07845RL"
-			(at 124.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc95ef6b-43a9-46bb-9720-5da0593939a4")
-		)
-		(pin "2"
-			(uuid "7b0bbe05-5803-43b6-b7c5-6aa071d6ecfb")
-		)
-		(instances
-			(project "esp32s3-powerfeather"
-				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1dd60fd9-c406-4047-80b6-6321e22f9725"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 86.36 44.45 0)
 		(unit 1)
@@ -3402,7 +3300,7 @@
 		(dnp no)
 		(uuid "db7c3c1e-7970-4b82-b8da-504a40bad18f")
 		(property "Reference" "R16"
-			(at 131.064 73.152 0)
+			(at 132.588 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
