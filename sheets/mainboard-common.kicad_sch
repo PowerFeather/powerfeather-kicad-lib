@@ -3006,7 +3006,7 @@
 			(symbol "PowerFeather_Mainboard_0_1"
 				(rectangle
 					(start -10.16 26.67)
-					(end 10.16 -26.416)
+					(end 10.16 -26.67)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5915,7 +5915,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.212 157.734) (xy 177.038 157.734)
+			(xy 172.72 157.48) (xy 176.53 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6155,7 +6155,7 @@
 	)
 	(polyline
 		(pts
-			(xy 155.956 124.714) (xy 172.212 124.714)
+			(xy 156.21 124.46) (xy 172.72 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6595,7 +6595,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.212 124.714) (xy 172.212 157.734)
+			(xy 172.72 124.46) (xy 172.72 157.48)
 		)
 		(stroke
 			(width 0)
@@ -13085,7 +13085,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x16_Socket")
-		(at 182.88 109.22 0)
+		(at 180.34 109.22 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13094,7 +13094,7 @@
 		(dnp yes)
 		(uuid "cd8aac37-7161-4b11-8f03-63656b20d875")
 		(property "Reference" "J4"
-			(at 179.07 129.54 0)
+			(at 176.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13103,7 +13103,7 @@
 			)
 		)
 		(property "Value" "Conn_01x16_Socket"
-			(at 184.15 101.6 90)
+			(at 181.61 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13112,7 +13112,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
-			(at 182.88 109.22 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13121,7 +13121,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/61301611821.pdf"
-			(at 182.88 109.22 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13130,7 +13130,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 109.22 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13139,7 +13139,7 @@
 			)
 		)
 		(property "MPN" "710-61301611821"
-			(at 182.88 109.22 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

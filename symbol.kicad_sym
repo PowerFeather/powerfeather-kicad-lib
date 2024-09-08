@@ -1154,7 +1154,7 @@
 		(symbol "PowerFeather_Mainboard_0_1"
 			(rectangle
 				(start -10.16 26.67)
-				(end 10.16 -26.416)
+				(end 10.16 -26.67)
 				(stroke
 					(width 0.254)
 					(type default)
