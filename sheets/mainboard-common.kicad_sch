@@ -5020,6 +5020,12 @@
 		(uuid "d1dc2170-1068-4b7b-be32-796452aef00a")
 	)
 	(junction
+		(at 71.12 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e13f6e1d-121c-4315-8398-247135797ecc")
+	)
+	(junction
 		(at 143.51 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5921,6 +5927,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 161.29) (xy 71.12 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544489a2-9370-4a93-b289-567f1416e01f")
+	)
+	(wire
+		(pts
 			(xy 204.47 101.6) (xy 210.82 101.6)
 		)
 		(stroke
@@ -6411,6 +6427,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 171.45) (xy 71.12 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d8cce7-c5d8-4762-93e4-39572cf3c4cb")
+	)
+	(wire
+		(pts
 			(xy 33.02 102.87) (xy 33.02 107.95)
 		)
 		(stroke
@@ -6888,6 +6914,16 @@
 			(type default)
 		)
 		(uuid "c3f4dea7-f27a-4a70-a626-db4e2c2d4af5")
+	)
+	(wire
+		(pts
+			(xy 64.77 168.91) (xy 64.77 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c584fc42-f270-41fa-b62f-8e9bff00be1c")
 	)
 	(wire
 		(pts
@@ -9818,7 +9854,7 @@
 			)
 		)
 		(property "Value" "LTST-C190KGKT"
-			(at 67.31 170.18 0)
+			(at 67.31 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12077,6 +12113,84 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 71.12 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bd884f0-1ab7-4899-864d-e645dbda86f1")
+		(property "Reference" "R6"
+			(at 68.58 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 73.66 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 70.104 164.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf33661f-bd07-4ea3-bd60-a64b1b322fe4")
+		)
+		(pin "2"
+			(uuid "6b107ebf-696f-4127-ade2-6798db880135")
+		)
+		(instances
+			(project "esp32s3-powerfeather"
+				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 69.85 128.27 0)
 		(mirror y)
 		(unit 1)
@@ -12317,6 +12431,84 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 64.77 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a67c6b55-2474-4660-9edb-52012be17ecb")
+		(property "Reference" "R22"
+			(at 62.23 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 67.31 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 63.754 164.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ff47e0-6b57-4838-a385-70a710de279c")
+		)
+		(pin "2"
+			(uuid "6a4ac02f-965f-4259-8bb1-b65bb6d3e00f")
+		)
+		(instances
+			(project "esp32s3-powerfeather"
+				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 241.3 35.56 270)
 		(mirror x)
 		(unit 1)
@@ -12507,84 +12699,6 @@
 			(project "esp32s3-powerfeather"
 				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 71.12 165.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8f2fca5-4576-4bbf-b4d7-5083fbed5207")
-		(property "Reference" "R6"
-			(at 77.47 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "845"
-			(at 77.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 70.104 164.846 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ph/datasheet/2/447/PYu_AC_51_RoHS_L_9-3005297.pdf"
-			(at 71.12 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "603-AC0402FR-07845RL"
-			(at 71.12 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94f03c51-da9d-4eef-a1ea-47d76b0a16c3")
-		)
-		(pin "2"
-			(uuid "3394731a-f9cc-4364-925b-b0b44a744049")
-		)
-		(instances
-			(project "esp32s3-powerfeather"
-				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f"
-					(reference "R6")
 					(unit 1)
 				)
 			)
