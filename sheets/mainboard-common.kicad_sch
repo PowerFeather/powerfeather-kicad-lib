@@ -7582,7 +7582,7 @@
 			"B7U+VImPRV7AAAAAAElFTkSuQmCC"
 		)
 	)
-	(text "For a 15 mOhm sense resistor:\n\nMax capacity: 327.675mVh/10mOhm = 22.845 Ah\nMax current measured: 51.1984mV/10mOhm = 3.4132 A\nCurrent measurement resolution: 1.5625uV/10mOhm = 104.167 uA"
+	(text "For a 20 mOhm sense resistor:\n\nMax capacity: 327.675mVh/20mOhm = 16.384 Ah\nMax current measured: 51.1984mV/20mOhm = 2.56 A\nCurrent measurement resolution: 1.5625uV/20mOhm = 78.125 uA"
 		(exclude_from_sim no)
 		(at 177.8 157.48 0)
 		(effects
@@ -14267,7 +14267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15m"
+		(property "Value" "20m"
 			(at 151.13 124.4599 0)
 			(effects
 				(font
