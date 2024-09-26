@@ -1213,12 +1213,6 @@
 		)
 		(instances
 			(project "esp32s3-powerfeather"
-				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/79a6a83b-266a-4a69-901f-f515d0156029"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-			(project "esp32s3-powerfeather"
 				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/b14ae25c-1044-42b2-88e6-486f3cf2e161"
 					(reference "C22")
 					(unit 1)
@@ -1306,12 +1300,6 @@
 		)
 		(instances
 			(project "esp32s3-powerfeather"
-				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/79a6a83b-266a-4a69-901f-f515d0156029"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-			(project "esp32s3-powerfeather"
 				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/b14ae25c-1044-42b2-88e6-486f3cf2e161"
 					(reference "C23")
 					(unit 1)
@@ -1389,12 +1377,6 @@
 			(uuid "ad4af245-6c3f-476c-a1aa-0c130acbcf60")
 		)
 		(instances
-			(project "esp32s3-powerfeather"
-				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/79a6a83b-266a-4a69-901f-f515d0156029"
-					(reference "R21")
-					(unit 1)
-				)
-			)
 			(project "esp32s3-powerfeather"
 				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/b14ae25c-1044-42b2-88e6-486f3cf2e161"
 					(reference "R21")
@@ -1484,12 +1466,6 @@
 			(uuid "b83229c2-c4f2-4c7b-b3d2-2b5939c1e838")
 		)
 		(instances
-			(project "esp32s3-powerfeather"
-				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/79a6a83b-266a-4a69-901f-f515d0156029"
-					(reference "U6")
-					(unit 1)
-				)
-			)
 			(project "esp32s3-powerfeather"
 				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/b14ae25c-1044-42b2-88e6-486f3cf2e161"
 					(reference "U6")
