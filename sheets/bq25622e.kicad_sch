@@ -2221,7 +2221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47d072e2-a2cc-41b2-ad67-45b3cfa90e42")
-		(property "Reference" "C?"
+		(property "Reference" "C11"
 			(at 121.412 54.737 90)
 			(effects
 				(font
@@ -2293,7 +2293,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "C?")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2315,7 +2315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57a48c30-1e5a-4579-af17-21287a29c086")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 102.9335 42.418 0)
 			(effects
 				(font
@@ -2424,7 +2424,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "U?")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2445,7 +2445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "588b6352-b970-45b6-98af-9bc2c4d31f09")
-		(property "Reference" "C?"
+		(property "Reference" "C10"
 			(at 111.506 84.328 0)
 			(effects
 				(font
@@ -2517,7 +2517,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "C?")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2538,7 +2538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67354bbb-b53d-4ea7-b98b-300fcfbbcfed")
-		(property "Reference" "R?"
+		(property "Reference" "R17"
 			(at 59.69 66.04 0)
 			(effects
 				(font
@@ -2601,7 +2601,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "R?")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2622,7 +2622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6eddd167-ce78-47e5-a57d-1a8742d46276")
-		(property "Reference" "R?"
+		(property "Reference" "R21"
 			(at 74.93 60.198 90)
 			(effects
 				(font
@@ -2685,7 +2685,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2706,7 +2706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "739202eb-2c27-4a01-be1c-096cd98f58f0")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 135.89 54.737 90)
 			(effects
 				(font
@@ -2767,7 +2767,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "L?")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2788,7 +2788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "747decc5-7cc9-4dde-b9cf-7abf650e3f96")
-		(property "Reference" "C?"
+		(property "Reference" "C13"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -2860,7 +2860,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "C?")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2881,7 +2881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f5b5e40-ebcb-445f-b268-ea7a4b130748")
-		(property "Reference" "R?"
+		(property "Reference" "R19"
 			(at 74.168 48.26 0)
 			(effects
 				(font
@@ -2944,7 +2944,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "R?")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2965,7 +2965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb95a5ea-5a44-43c9-81e6-cf0dc81e710f")
-		(property "Reference" "LED?"
+		(property "Reference" "LED2"
 			(at 59.055 46.99 0)
 			(effects
 				(font
@@ -3028,7 +3028,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "LED?")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -3049,7 +3049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c255f309-6094-4a96-82fd-85d7e8bb2436")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -3121,7 +3121,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3142,7 +3142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5a1c44f-c8e3-4f53-9c10-b480b5d9a4bc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -3192,7 +3192,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3213,7 +3213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d362359e-d205-4884-bfa4-7a003d1a89ed")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -3263,7 +3263,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3284,7 +3284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5e82683-ea71-4084-b8a9-acdd2f2c9f5f")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 90.17 85.09 0)
 			(effects
 				(font
@@ -3356,7 +3356,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3377,7 +3377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db7c3c1e-7970-4b82-b8da-504a40bad18f")
-		(property "Reference" "R?"
+		(property "Reference" "R22"
 			(at 132.588 73.152 0)
 			(effects
 				(font
@@ -3440,7 +3440,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "R?")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3461,7 +3461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3a25ab8-a9af-42cf-b0ee-160d0fa0b315")
-		(property "Reference" "R?"
+		(property "Reference" "R23"
 			(at 125.73 85.725 0)
 			(effects
 				(font
@@ -3524,7 +3524,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "R?")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3545,7 +3545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8bcc23f-cef0-4243-9085-4a48168e0c5d")
-		(property "Reference" "C?"
+		(property "Reference" "C9"
 			(at 92.202 38.862 0)
 			(effects
 				(font
@@ -3617,7 +3617,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3638,7 +3638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed7fa602-098a-4393-991a-5e55afc72a5a")
-		(property "Reference" "C?"
+		(property "Reference" "C12"
 			(at 122.555 46.99 90)
 			(effects
 				(font
@@ -3710,7 +3710,7 @@
 		(instances
 			(project "powerups"
 				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "C?")
+					(reference "C12")
 					(unit 1)
 				)
 			)
