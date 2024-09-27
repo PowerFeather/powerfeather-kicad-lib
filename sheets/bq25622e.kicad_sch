@@ -637,28 +637,16 @@
 				)
 			)
 		)
-		(symbol "PowerFeather:BQ25628E"
+		(symbol "GND_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BQ25629"
-				(at 0 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PowerFeather:BQ25629"
-				(at 0 -17.78 0)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -666,8 +654,116 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25628.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1678569696571&ref_url=https%253A%252F%252Fwww.mouser.ph%252F"
-				(at -3.175 0 0)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PowerFeather_KiCAD_Lib:BQ25628E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BQ25628E"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PowerFeather:BQ25628E"
+				(at -0.762 -19.812 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/405/1/bq25628e-3377636.pdf"
+				(at 1.27 -21.844 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -807,7 +903,7 @@
 					)
 				)
 				(pin input line
-					(at 2.54 -17.78 90)
+					(at 0 -17.78 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -899,7 +995,7 @@
 				(pin output line
 					(at -12.7 -10.16 0)
 					(length 2.54)
-					(name "PG"
+					(name "PMID_GD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1024,102 +1120,6 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 118.11 91.44)
@@ -1134,7 +1134,7 @@
 		(uuid "0ea9df90-125b-4177-a2b4-77d6fed796a4")
 	)
 	(junction
-		(at 105.41 91.44)
+		(at 102.87 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "174c5fd1-e96b-4d60-aee7-e3122945e290")
@@ -1341,6 +1341,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 91.44) (xy 118.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df37f80-b773-4349-8879-fe9c81622974")
+	)
+	(wire
+		(pts
 			(xy 72.39 50.8) (xy 72.39 55.88)
 		)
 		(stroke
@@ -1371,7 +1381,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 105.41 91.44)
+			(xy 83.82 91.44) (xy 102.87 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1571,16 +1581,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 91.44) (xy 118.11 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81abcdfb-6622-448d-97e6-b77e18c62a95")
-	)
-	(wire
-		(pts
 			(xy 85.09 53.34) (xy 90.17 53.34)
 		)
 		(stroke
@@ -1671,7 +1671,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 81.28) (xy 105.41 91.44)
+			(xy 102.87 81.28) (xy 102.87 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2306,137 +2306,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PowerFeather:BQ25628E")
-		(at 102.87 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57a48c30-1e5a-4579-af17-21287a29c086")
-		(property "Reference" "U4"
-			(at 102.9335 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BQ25628E"
-			(at 102.9335 44.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PowerFeather:BQ25629"
-			(at 102.87 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/bq25628e"
-			(at 99.695 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "595-BQ25628ERYKR"
-			(at 102.87 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2c0b6be-5719-4de1-a854-c7af49de1b04")
-		)
-		(pin "10"
-			(uuid "aa9d7a1a-612b-486b-a148-69fa32438903")
-		)
-		(pin "11"
-			(uuid "5544d5a7-ddd1-4cc1-80e6-fedd4d4d35c4")
-		)
-		(pin "12"
-			(uuid "5189973f-14c1-4eba-8e23-de76a78aad67")
-		)
-		(pin "13"
-			(uuid "c0423617-3644-4032-84c3-5505ac826e4b")
-		)
-		(pin "14"
-			(uuid "79d518c2-f9cd-44a0-bd25-fe51c55f1198")
-		)
-		(pin "15"
-			(uuid "548ee05f-0017-4445-b36e-7fc76953aa66")
-		)
-		(pin "16"
-			(uuid "2d0bc30e-50fb-4fd7-a4e4-f007d7f0f452")
-		)
-		(pin "17"
-			(uuid "535ee5f3-921f-40f2-931c-4c7ecc94ca28")
-		)
-		(pin "18"
-			(uuid "a8b68d48-bce9-4bd3-aff3-b8ccbac5b60c")
-		)
-		(pin "2"
-			(uuid "a1e723b7-53db-4893-a060-28fe72891373")
-		)
-		(pin "3"
-			(uuid "e017379d-821c-49f6-9336-d3a64f61a5d2")
-		)
-		(pin "4"
-			(uuid "3593479e-4d1a-4b20-8fef-8d5dada0f91b")
-		)
-		(pin "5"
-			(uuid "605bf354-b67c-47b6-9bb6-42385335ece0")
-		)
-		(pin "6"
-			(uuid "493fcb85-ac29-4525-aa13-9e5896adba86")
-		)
-		(pin "7"
-			(uuid "f3879b83-3ae5-4c34-9601-9d484594525d")
-		)
-		(pin "8"
-			(uuid "7e132789-8677-4088-94ce-dfc47f79034e")
-		)
-		(pin "9"
-			(uuid "e1a842c5-e64d-4241-8273-f8fd79dd75c8")
-		)
-		(instances
-			(project "powerups"
-				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project "esp32s3-powerfeather"
-				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1dd60fd9-c406-4047-80b6-6321e22f9725"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 118.11 83.82 180)
 		(unit 1)
@@ -2957,6 +2826,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 129.54 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad1e04ce-d66f-46f1-ad49-55e12a59a634")
+		(property "Reference" "#PWR08"
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.588 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "389c2092-5d5d-4332-b0d9-c369d376e625")
+		)
+		(instances
+			(project "powerups"
+				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 63.5 49.53 90)
 		(unit 1)
@@ -3128,148 +3064,6 @@
 			(project "esp32s3-powerfeather"
 				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1dd60fd9-c406-4047-80b6-6321e22f9725"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5a1c44f-c8e3-4f53-9c10-b480b5d9a4bc")
-		(property "Reference" "#PWR0102"
-			(at 129.54 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "393bc552-b261-4d10-b176-7769d0009514")
-		)
-		(instances
-			(project "powerups"
-				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-			(project "esp32s3-powerfeather"
-				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1dd60fd9-c406-4047-80b6-6321e22f9725"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d362359e-d205-4884-bfa4-7a003d1a89ed")
-		(property "Reference" "#PWR0101"
-			(at 86.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d62d29d4-fe0c-4bb3-b6df-b16fedd7c508")
-		)
-		(instances
-			(project "powerups"
-				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-			(project "esp32s3-powerfeather"
-				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1dd60fd9-c406-4047-80b6-6321e22f9725"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3531,6 +3325,188 @@
 			(project "esp32s3-powerfeather"
 				(path "/5be6a852-fa78-49fa-bb8c-8d5ad39f4b26/a940761a-0d45-4491-ba89-ec093a8f239f/1dd60fd9-c406-4047-80b6-6321e22f9725"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 86.36 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e514d651-c2f7-4b04-9914-f841efc8a0dd")
+		(property "Reference" "#PWR07"
+			(at 86.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.804 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e6e3cca-9eb6-4192-8094-42f643c24f73")
+		)
+		(instances
+			(project ""
+				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerFeather_KiCAD_Lib:BQ25628E")
+		(at 102.87 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8808c86-1074-45f6-b761-8a75b8707e3f")
+		(property "Reference" "U4"
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ25628E"
+			(at 102.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PowerFeather:BQ25628E"
+			(at 102.108 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/405/1/bq25628e-3377636.pdf"
+			(at 104.14 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bc6871e9-3eae-49f9-af0e-9f909342c549")
+		)
+		(pin "15"
+			(uuid "29eb3476-d489-43b2-ad99-ce733fa6fc8e")
+		)
+		(pin "3"
+			(uuid "d6411316-d136-45c2-8182-dafe3606ac0f")
+		)
+		(pin "17"
+			(uuid "659ce9e0-ec2a-49f9-962e-a8a57618f66e")
+		)
+		(pin "13"
+			(uuid "23959cf9-f522-47d2-aea9-5474d2b400c9")
+		)
+		(pin "10"
+			(uuid "cdbde4e5-4e13-4a97-9280-735433f97b9a")
+		)
+		(pin "12"
+			(uuid "ef0feff6-5c0f-4cd7-a6bc-b6f2d5523566")
+		)
+		(pin "1"
+			(uuid "d7a7a805-f8e9-4445-85a7-3fbf6633de8e")
+		)
+		(pin "11"
+			(uuid "cfd70270-8a84-4b84-b52a-36a6ca7419a2")
+		)
+		(pin "14"
+			(uuid "cf1cbcf8-983d-47b2-b722-5fed3f29f119")
+		)
+		(pin "18"
+			(uuid "5fb18dd2-b698-4114-b34f-b92d2bf4932a")
+		)
+		(pin "16"
+			(uuid "8e4808cb-2fa1-4af3-bf75-5663ee414489")
+		)
+		(pin "7"
+			(uuid "760655d5-c860-49d0-993d-6427103f634b")
+		)
+		(pin "2"
+			(uuid "c74e8230-1469-4e7a-992d-15ade9d94e0d")
+		)
+		(pin "8"
+			(uuid "2a03ce62-e5c2-46c4-88b7-6d4a3a3711ba")
+		)
+		(pin "4"
+			(uuid "6c5d9440-bd1c-4185-b1a8-03e5a47dc340")
+		)
+		(pin "6"
+			(uuid "5b939821-5fea-4c48-b5d0-47b00e710f92")
+		)
+		(pin "9"
+			(uuid "a2030fa6-d612-4660-895c-e1fb3611e8c2")
+		)
+		(instances
+			(project ""
+				(path "/351775ff-22dd-4601-a146-0ae5bb7b1807/788c158d-fb18-46fd-a4f8-fb3433f7b73b"
+					(reference "U4")
 					(unit 1)
 				)
 			)
