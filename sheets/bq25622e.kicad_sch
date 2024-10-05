@@ -2919,7 +2919,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PowerFeather:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 63.5 49.53 0)
 			(effects
 				(font
@@ -3422,7 +3422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PowerFeather:BQ25628E"
+		(property "Footprint" "PowerFeather_KiCAD_Lib:BQ25628E"
 			(at 102.108 83.312 0)
 			(effects
 				(font
