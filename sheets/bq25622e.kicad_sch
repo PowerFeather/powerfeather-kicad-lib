@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "520ec42e-b3c7-49b5-82ea-2e6a5aae60fc")
 	(paper "A5")
+	(title_block
+		(title "BQ25622E charger circuit")
+		(date "2024-10-11")
+		(rev "0.9.0")
+		(company "PowerFeather")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -733,7 +739,7 @@
 				)
 			)
 		)
-		(symbol "PowerFeather_KiCAD_Lib:BQ25628E"
+		(symbol "PowerFeather_KiCAD_Lib:BQ25622E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -745,7 +751,7 @@
 					)
 				)
 			)
-			(property "Value" "BQ25628E"
+			(property "Value" "BQ25622E"
 				(at 0 19.05 0)
 				(effects
 					(font
@@ -780,7 +786,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BQ25628E_0_1"
+			(symbol "BQ25622E_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -15.24)
@@ -793,7 +799,7 @@
 					)
 				)
 			)
-			(symbol "BQ25628E_1_1"
+			(symbol "BQ25622E_1_1"
 				(pin power_out line
 					(at 12.7 7.62 180)
 					(length 2.54)
@@ -1830,7 +1836,7 @@
 		(uuid "fecf6d12-5838-45f3-9361-8eb05489be21")
 	)
 	(image
-		(at 96.012 111.506)
+		(at 96.52 110.236)
 		(scale 0.0917897)
 		(uuid "a6ce5fb4-53c4-4e4b-ba56-fae9ec5f5713")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz"
@@ -2094,7 +2100,7 @@
 	)
 	(hierarchical_label "PG"
 		(shape output)
-		(at 72.39 73.66 90)
+		(at 57.15 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3397,7 +3403,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PowerFeather_KiCAD_Lib:BQ25628E")
+		(lib_id "PowerFeather_KiCAD_Lib:BQ25622E")
 		(at 102.87 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3414,7 +3420,7 @@
 				)
 			)
 		)
-		(property "Value" "BQ25628E"
+		(property "Value" "BQ25622E"
 			(at 102.87 43.18 0)
 			(effects
 				(font
@@ -3422,7 +3428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PowerFeather_KiCAD_Lib:BQ25628E"
+		(property "Footprint" "PowerFeather_KiCAD_Lib:BQ25622E"
 			(at 102.108 83.312 0)
 			(effects
 				(font
