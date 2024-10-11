@@ -1375,7 +1375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_AC_51_RoHS_L_11-3418659.pdf"
+		(property "Datasheet" "https://www.mouser.ph/datasheet/2/447/PYu_AC_51_RoHS_L_9-3005297.pdf"
 			(at 130.81 59.69 0)
 			(effects
 				(font
@@ -1393,7 +1393,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0402FR-07267KL "
+		(property "MPN" "603-AC0402FR-07267KL"
+			(at 130.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 130.81 59.69 0)
 			(effects
 				(font
