@@ -773,7 +773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/bq25622"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/bq25622e"
 			(at 1.27 -21.844 0)
 			(effects
 				(font
@@ -782,7 +782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BQ25622E I2C Controlled 1-Cell, 3A, Maximum 18V Input, Buck Battery Charger with NVDC Power Path Management"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2042,7 +2042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "PowerFeather_KiCAD_Lib:DFN-6_2x2mm_P0.65mm_EP1x1.6mm"
 			(at 0 -10.668 0)
 			(effects
 				(font
@@ -2051,7 +2051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncv68261-d.pdf"
 			(at 5.08 -8.382 0)
 			(effects
 				(font
@@ -2060,7 +2060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ideal Diode and High Side Switch NMOS Controller"
 			(at 5.08 -8.382 0)
 			(effects
 				(font
@@ -2119,24 +2119,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 7.62 3.81 180)
 				(length 2.54)
@@ -2166,6 +2148,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
