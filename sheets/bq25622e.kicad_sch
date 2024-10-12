@@ -2944,7 +2944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Red LED"
 			(at 63.5 49.53 0)
 			(effects
 				(font
@@ -2993,7 +2993,7 @@
 		(dnp no)
 		(uuid "c255f309-6094-4a96-82fd-85d7e8bb2436")
 		(property "Reference" "C12"
-			(at 62.23 85.09 0)
+			(at 64.008 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
