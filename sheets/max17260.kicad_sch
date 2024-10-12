@@ -1457,7 +1457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/609/MAX17260-3469057.pdf"
 			(at 104.648 80.518 0)
 			(effects
 				(font
@@ -1467,6 +1467,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "700-MAX17260BEWL+T"
 			(at 105.41 67.31 0)
 			(effects
 				(font

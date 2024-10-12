@@ -2917,7 +2917,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C190KRKT"
+		(property "Value" "LTST-C190KRKT"
 			(at 60.96 44.704 0)
 			(effects
 				(font
@@ -3449,6 +3449,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "595-BQ25622ERYKR"
 			(at 102.87 63.5 0)
 			(effects
 				(font
