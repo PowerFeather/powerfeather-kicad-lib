@@ -322,7 +322,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -6.985 10.16 0)
+				(at -6.985 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -330,15 +330,15 @@
 				)
 			)
 			(property "Value" "MAX17260"
-				(at 8.255 10.16 0)
+				(at 0 -16.764 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 -10.668 0)
+			(property "Footprint" "Package_DFN_QFN:TDFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm"
+				(at 0 -14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -347,7 +347,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -0.762 -13.208 0)
+				(at -0.762 -10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -356,7 +356,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -384,8 +384,8 @@
 			)
 			(symbol "MAX17260_0_1"
 				(rectangle
-					(start -7.62 8.89)
-					(end 7.62 -8.89)
+					(start -7.62 11.43)
+					(end 7.62 -12.446)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -397,7 +397,7 @@
 			)
 			(symbol "MAX17260_1_1"
 				(pin passive line
-					(at -10.16 6.35 0)
+					(at -10.16 8.89 0)
 					(length 2.54)
 					(name "TH"
 						(effects
@@ -406,25 +406,7 @@
 							)
 						)
 					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 6.35 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -433,97 +415,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "CSN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 11.43 270)
-					(length 2.54)
-					(name "BATT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "ALRT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -6.35 180)
-					(length 2.54)
-					(name "REG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 3.81 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -1.27 0)
+					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "CSPH"
 						(effects
@@ -532,7 +424,169 @@
 							)
 						)
 					)
-					(number "C2"
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "REG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "ALRT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 6.35 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 8.89 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -541,16 +595,70 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 -6.35 0)
+					(at 0 13.97 270)
 					(length 2.54)
-					(name "GND/CSPL"
+					(name "BATT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C3"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "CSN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "CSPL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -574,7 +682,7 @@
 		(uuid "31c8ee39-912c-4c55-a6bf-4baf30fce161")
 	)
 	(junction
-		(at 78.74 83.82)
+		(at 78.74 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3afb54f5-c23c-462f-93a4-254552d9b513")
@@ -598,10 +706,16 @@
 		(uuid "6ff85cb3-87bd-463f-9f2d-9b9fa07fc1d1")
 	)
 	(junction
+		(at 91.44 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f25619c-929d-41b2-b811-bdf3d4fc302e")
+	)
+	(junction
 		(at 91.44 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bfeeb640-8632-44f1-8fb7-297ebea86526")
+		(uuid "b6125c7d-a494-4ca0-9dca-9298cb7b2851")
 	)
 	(wire
 		(pts
@@ -615,13 +729,33 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 73.66) (xy 130.81 74.93)
+			(xy 95.25 69.85) (xy 91.44 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0d157d-8375-4342-91da-e97b82ebd99c")
+	)
+	(wire
+		(pts
+			(xy 130.81 69.85) (xy 130.81 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1122c9d5-d3b9-433a-a121-b1ee00f138c1")
+	)
+	(wire
+		(pts
+			(xy 115.57 66.04) (xy 130.81 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2759ea2c-c74a-4530-b4d9-351c62580a34")
 	)
 	(wire
 		(pts
@@ -635,6 +769,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 76.2) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a1a8b3-963a-4d01-8687-e5e8b836da79")
+	)
+	(wire
+		(pts
 			(xy 115.57 63.5) (xy 120.65 63.5)
 		)
 		(stroke
@@ -642,16 +786,6 @@
 			(type default)
 		)
 		(uuid "526d01f1-75b8-4370-979e-ab985bebfcff")
-	)
-	(wire
-		(pts
-			(xy 91.44 60.96) (xy 95.25 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d23a710-b33f-4bc6-b190-42428c5caefc")
 	)
 	(wire
 		(pts
@@ -675,13 +809,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 68.58) (xy 95.25 68.58)
+			(xy 91.44 67.31) (xy 95.25 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "85e5013a-9ae8-4749-94f5-fd55c58b3fba")
+	)
+	(wire
+		(pts
+			(xy 91.44 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87003afb-e104-415b-90c5-2535d5f61715")
 	)
 	(wire
 		(pts
@@ -705,7 +849,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 83.82) (xy 130.81 82.55)
+			(xy 130.81 87.63) (xy 130.81 82.55)
 		)
 		(stroke
 			(width 0)
@@ -725,17 +869,27 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 52.07) (xy 91.44 60.96)
+			(xy 91.44 60.96) (xy 95.25 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bafdcd51-0508-4f10-85e0-bc7a73067ecc")
+		(uuid "ac11346e-cc83-4056-9431-822150bc51ff")
 	)
 	(wire
 		(pts
-			(xy 91.44 66.04) (xy 95.25 66.04)
+			(xy 91.44 69.85) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26b5c4e-8cdc-4da5-9951-6635ab0e1584")
+	)
+	(wire
+		(pts
+			(xy 91.44 64.77) (xy 95.25 64.77)
 		)
 		(stroke
 			(width 0)
@@ -745,13 +899,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 66.04) (xy 130.81 66.04)
+			(xy 91.44 73.66) (xy 78.74 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfa4afff-9381-4ca9-a3ed-ef04f3c0f2b9")
+		(uuid "c70c160c-0c58-4404-b4dc-8aa3543dd624")
 	)
 	(wire
 		(pts
@@ -765,7 +919,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 60.96) (xy 91.44 66.04)
+			(xy 91.44 52.07) (xy 91.44 60.96)
 		)
 		(stroke
 			(width 0)
@@ -785,7 +939,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 83.82) (xy 78.74 83.82)
+			(xy 130.81 87.63) (xy 78.74 87.63)
 		)
 		(stroke
 			(width 0)
@@ -795,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 130.81 73.66)
+			(xy 115.57 69.85) (xy 130.81 69.85)
 		)
 		(stroke
 			(width 0)
@@ -805,7 +959,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 83.82) (xy 78.74 83.82)
+			(xy 77.47 87.63) (xy 78.74 87.63)
 		)
 		(stroke
 			(width 0)
@@ -825,23 +979,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 78.74 73.66)
+			(xy 78.74 87.63) (xy 78.74 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eaed9f1b-790b-41f3-bd4a-9813a2eeb579")
-	)
-	(wire
-		(pts
-			(xy 95.25 73.66) (xy 78.74 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec194fa7-79ac-4df7-8fba-984509887bdb")
 	)
 	(wire
 		(pts
@@ -852,6 +996,26 @@
 			(type default)
 		)
 		(uuid "f3e62849-6ef5-4d62-ba81-98a09515b575")
+	)
+	(wire
+		(pts
+			(xy 95.25 76.2) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56df965-48fd-4721-8705-845546fe108b")
+	)
+	(wire
+		(pts
+			(xy 91.44 60.96) (xy 91.44 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec3475b-379c-460c-885b-a7a3d55e418a")
 	)
 	(image
 		(at 96.52 110.744)
@@ -1094,7 +1258,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 77.47 83.82 180)
+		(at 77.47 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1142,7 +1306,7 @@
 	)
 	(hierarchical_label "BAT_OUT"
 		(shape output)
-		(at 91.44 68.58 180)
+		(at 91.44 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1425,7 +1589,7 @@
 	)
 	(symbol
 		(lib_id "PowerFeather_KiCAD_Lib:MAX17260")
-		(at 105.41 67.31 0)
+		(at 105.41 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1433,7 +1597,7 @@
 		(dnp no)
 		(uuid "92798f0d-1845-4eb3-8bcc-b3b153521782")
 		(property "Reference" "U7"
-			(at 105.41 77.47 0)
+			(at 105.664 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,15 +1605,15 @@
 			)
 		)
 		(property "Value" "MAX17260"
-			(at 105.41 79.248 0)
+			(at 105.664 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:WLP-9_1.448x1.468mm_Layout3x3_P0.4mm_Ball0.27mm_Pad0.25mm"
-			(at 105.41 77.978 0)
+		(property "Footprint" "Package_DFN_QFN:TDFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm"
+			(at 105.41 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1622,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/609/MAX17260-3469057.pdf"
-			(at 104.648 80.518 0)
+			(at 104.648 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,7 +1631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 67.31 0)
+			(at 105.41 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1476,7 +1640,7 @@
 			)
 		)
 		(property "MPN" "700-MAX17260BEWL+T"
-			(at 105.41 67.31 0)
+			(at 105.41 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,32 +1648,50 @@
 				(hide yes)
 			)
 		)
-		(pin "C3"
+		(pin "14"
 			(uuid "bb02b27c-a921-466a-af15-ac054f9adc9d")
 		)
-		(pin "A1"
+		(pin "5"
 			(uuid "612383fe-fd7c-4410-b0ad-0fce255bc38a")
 		)
-		(pin "B3"
+		(pin "11"
 			(uuid "7640d651-5a8f-45cd-bde8-4ca4d3bb696c")
 		)
-		(pin "B1"
+		(pin "13"
 			(uuid "e1ab8518-fd32-4e73-9f4f-6f967ed6405e")
 		)
-		(pin "A2"
+		(pin "3"
 			(uuid "6f6467a6-dd32-474b-90f2-6dfbe28002d8")
 		)
-		(pin "C1"
+		(pin "1"
 			(uuid "51596e09-607c-4b8e-955b-ecbcc24efc2f")
 		)
-		(pin "B2"
+		(pin "10"
 			(uuid "6aa99a0f-ea6a-4a3a-831a-e37b1352b8b6")
 		)
-		(pin "A3"
+		(pin "9"
 			(uuid "9d5568ee-1ae7-43d9-bcef-b92718c2b51b")
 		)
-		(pin "C2"
+		(pin "4"
 			(uuid "b83229c2-c4f2-4c7b-b3d2-2b5939c1e838")
+		)
+		(pin "7"
+			(uuid "79cd2d66-c199-4e07-85d2-c2d6aa468203")
+		)
+		(pin "8"
+			(uuid "ee37a282-2ab3-45c6-aea6-567fb6e153cc")
+		)
+		(pin "2"
+			(uuid "d5b74b92-f737-4843-9cc0-95b0b860bc24")
+		)
+		(pin "6"
+			(uuid "73968808-4ee9-4d56-a4cf-3cf18b71adca")
+		)
+		(pin "12"
+			(uuid "cac8c0bb-b082-4ae0-a509-1be12458c255")
+		)
+		(pin "15"
+			(uuid "ee425e27-46bd-40d7-ac40-aba5dcf14c41")
 		)
 		(instances
 			(project "powerups"
