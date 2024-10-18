@@ -670,12 +670,6 @@
 		)
 	)
 	(junction
-		(at 105.41 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f0848f3-d2c7-4916-a034-453daeaa2e80")
-	)
-	(junction
 		(at 130.81 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -906,16 +900,6 @@
 			(type default)
 		)
 		(uuid "c70c160c-0c58-4404-b4dc-8aa3543dd624")
-	)
-	(wire
-		(pts
-			(xy 105.41 52.07) (xy 130.81 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc1f9af5-c935-4aa1-aea2-3b682c02d41a")
 	)
 	(wire
 		(pts
@@ -1255,6 +1239,18 @@
 			(justify right)
 		)
 		(uuid "011affd3-d4e7-478e-9f71-23b8552d4223")
+	)
+	(hierarchical_label "VPU"
+		(shape input)
+		(at 130.81 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "279d7791-62b5-4ecc-bb09-12d3aa1b361d")
 	)
 	(hierarchical_label "GND"
 		(shape input)
