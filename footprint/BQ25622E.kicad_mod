@@ -365,4 +365,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "00fd4560-9b6c-4cb9-8803-2e854227fb58")
 	)
+	(model "${KIPRJMOD}/powerfeather-kicad-lib/3d/BQ25622E.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
