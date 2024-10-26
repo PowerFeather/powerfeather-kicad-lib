@@ -1635,7 +1635,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "700-MAX17260BEWL+T"
+		(property "MPN" "700-MAX17260SETD+T"
 			(at 105.41 69.85 0)
 			(effects
 				(font

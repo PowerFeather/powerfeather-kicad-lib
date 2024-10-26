@@ -2506,7 +2506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "800"
 			(at 84.074 60.198 90)
 			(effects
 				(font
@@ -2524,7 +2524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ph/datasheet/2/447/PYu_AC_51_RoHS_L_9-3005297.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 77.47 58.42 0)
 			(effects
 				(font
@@ -2542,7 +2542,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "603-AC0402FR-07845RL"
+		(property "MPN" "603-RC0402FR-7W806RL "
 			(at 77.47 58.42 0)
 			(effects
 				(font
@@ -2606,7 +2606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.jp/datasheet/2/281/1/J_E_TE243A_0032-2303193.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/3/AOTA_B252010S-3224149.pdf"
 			(at 135.89 53.34 0)
 			(effects
 				(font
@@ -2624,7 +2624,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "81-DFE252012P-1R0MP2"
+		(property "MPN" "815-AOTB252010S1R0MT"
 			(at 135.89 53.34 0)
 			(effects
 				(font
@@ -2909,7 +2909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ph/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_12-3368608.pdf"
 			(at 72.39 46.99 0)
 			(effects
 				(font
@@ -2927,7 +2927,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "603-RT0402BRD075K36L"
+		(property "MPN" "603-RC0402FR-135K36L"
 			(at 72.39 46.99 0)
 			(effects
 				(font
@@ -3330,7 +3330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ph/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_12-3368608.pdf"
 			(at 127 73.66 0)
 			(effects
 				(font
@@ -3348,7 +3348,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "603-RT0402BRD075K36L"
+		(property "MPN" "603-RC0402FR-135K36L"
 			(at 127 73.66 0)
 			(effects
 				(font
@@ -3415,7 +3415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ph/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 127 85.09 0)
 			(effects
 				(font
@@ -3433,7 +3433,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "603-RT0402BRD0731K6L"
+		(property "MPN" "603-RC0402FR-7D31K6L"
 			(at 127 85.09 0)
 			(effects
 				(font
