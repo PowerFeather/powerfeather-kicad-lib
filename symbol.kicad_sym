@@ -1282,7 +1282,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "NC"
@@ -1354,7 +1354,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at 12.7 -1.27 180)
 				(length 2.54)
 				(name "NC"
