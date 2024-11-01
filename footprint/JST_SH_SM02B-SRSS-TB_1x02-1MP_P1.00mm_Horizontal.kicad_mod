@@ -241,14 +241,14 @@
 	(pad "" smd roundrect
 		(at -1.8 1.875)
 		(size 1.2 1.8)
-		(layers "F.Paste")
+		(layers "F.Paste" "F.Mask")
 		(roundrect_rratio 0.208333)
 		(uuid "da52415d-6bf6-4366-aeaa-c88b6d5dfc3f")
 	)
 	(pad "" smd roundrect
 		(at 1.8 1.875)
 		(size 1.2 1.8)
-		(layers "F.Paste")
+		(layers "F.Paste" "F.Mask")
 		(roundrect_rratio 0.208333)
 		(uuid "e761753f-477c-4269-a0f9-63ea7dad554b")
 	)
