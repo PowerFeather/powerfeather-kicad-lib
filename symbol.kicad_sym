@@ -2150,7 +2150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PowerFeather_KiCAD_Lib:DFN-6_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
 			(at 0 -10.668 0)
 			(effects
 				(font
@@ -2292,6 +2292,24 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -1.27 180)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
